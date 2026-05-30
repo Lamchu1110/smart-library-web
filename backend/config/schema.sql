@@ -94,7 +94,7 @@ CREATE TABLE IF NOT EXISTS borrows (
 -- Seed data: Default admin user (password: admin123)
 -- ============================================
 INSERT INTO users (name, email, password, role) VALUES
-('Admin Profile', 'admin@university.edu', '$2a$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', 'admin')
+('Admin Profile', 'admin@university.edu', '$2a$10$0647ngX0qHVBGOkduh9Zj.zZsIWlwI5X.RkXKfiNhYd8UPWtLQ4LO', 'admin')
 ON DUPLICATE KEY UPDATE name = name;
 
 -- ============================================
